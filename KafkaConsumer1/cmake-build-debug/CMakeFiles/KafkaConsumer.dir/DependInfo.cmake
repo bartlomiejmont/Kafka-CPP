@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/oem/CLionProjects/KafkaConsumer/main.cpp" "/home/oem/CLionProjects/KafkaConsumer/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/main.cpp.o"
+  "/home/oem/CLionProjects/KafkaConsumer1/main.cpp" "/home/oem/CLionProjects/KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

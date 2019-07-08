@@ -3,6 +3,7 @@
 #include <ctime>
 #include <string>
 #include <chrono>
+#include <vector>
 
 using namespace std;
 using namespace cppkafka;
@@ -13,9 +14,18 @@ uint64_t getMs() {
     return duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
 }
 
+void displayResults (vector <long> res){
+    for(auto const& value: res) {
+        cout << value <<endl;
+    }
+    cout<<endl<<"---------------------------"<<endl;
+}
+
 
 int main() {
     string topic = "test";
+    vector <long> res;
+    string stop = "STOP";
 
     Configuration config = {
             { "metadata.broker.list", "127.0.0.1:9092" },
@@ -40,8 +50,12 @@ int main() {
 
         Message msg = consumer.poll();
         if (msg) {
+
+            if(msg.get_payload()==stop){
+                displayResults(res);
+            }
             // If we managed to get a message
-            if (msg.get_error()) {
+            else if (msg.get_error()) {
                 // Ignore EOF notifications from rdkafka
                 if (!msg.is_eof()) {
                     cout << "[+] Received error notification: " << msg.get_error() << endl;
@@ -53,9 +67,9 @@ int main() {
                     cout << msg.get_key() << " -> ";
                 }
                 // Print the payload
-                cout << msg.get_payload()<<" OFSET: "<< msg.get_offset() <<" TIME: "<<getMs() - msg.get_timestamp().get().get_timestamp().count()<< endl;
+                res.push_back(getMs()-msg.get_timestamp().get().get_timestamp().count());
+                //cout << msg.get_payload()<<" OFSET: "<< msg.get_offset() <<" TIME: "<<getMs() - msg.get_timestamp().get().get_timestamp().count()<< endl;
                 // Now commit the message
-                cout.flush();
                 consumer.commit(msg);
             }
         }

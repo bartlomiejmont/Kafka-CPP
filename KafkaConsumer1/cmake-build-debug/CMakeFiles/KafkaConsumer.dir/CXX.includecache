@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/oem/CLionProjects/KafkaConsumer/main.cpp
+/home/oem/CLionProjects/KafkaConsumer1/main.cpp
 cppkafka/cppkafka.h
 -
 iostream
@@ -16,5 +16,7 @@ ctime
 string
 -
 chrono
+-
+vector
 -
 

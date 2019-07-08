@@ -19,7 +19,7 @@ int main() {
     // Create the config
     Configuration config = {
             { "metadata.broker.list", "127.0.0.1:9092" },
-            {"linger.ms",2},
+            {"linger.ms",5},
     };
 
     // Create the producer
@@ -28,13 +28,14 @@ int main() {
     // Produce a message!
     string message = "STOP";
     string test = "test";
+    int msgAmount = 1000;
     long int now1 = getMs();
-    int msgAmount = 100000;
 
     for(int i=0; i<msgAmount; i++){
         long int now = getMs();
         string time = to_string(now);
         producer.produce(MessageBuilder("test").partition(0).payload(time));
+//        producer.poll();
 //        if(i%(msgAmount/300)==0){
 //            producer.flush();
 //        }
@@ -46,6 +47,7 @@ int main() {
     producer.flush();
     long int now2 = getMs();
 
-    cout <<"Sent "<<msgAmount<<" messages in:"<< float(now2-now1)/1000<<"s"<<"  TS: "<<now2;
+    cout <<"Sent "<<msgAmount<<" messages in:"<< float(now2-now1)/1000<<"s"<<"  TS: "<<now2<<endl;
+    cout <<"Messages per second: "<<(float(msgAmount)/float(now2-now1)*1000)<<"msg/s"<<endl;
 
 }
