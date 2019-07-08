@@ -1,0 +1,3 @@
+/home/oem/CLionProjects/KafkaConsumer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/oem/CLionProjects/KafkaConsumer/cmake-build-debug/CMakeFiles/KafkaConsumer.dir
+/home/oem/CLionProjects/KafkaConsumer/cmake-build-debug/CMakeFiles/edit_cache.dir

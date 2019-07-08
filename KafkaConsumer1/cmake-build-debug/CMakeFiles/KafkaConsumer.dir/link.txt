@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/KafkaConsumer.dir/main.cpp.o  -o KafkaConsumer -lcppkafka -lrdkafka 
