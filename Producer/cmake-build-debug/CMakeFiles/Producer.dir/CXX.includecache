@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oem/CLionProjects/Producer/main.cpp
+cppkafka/cppkafka.h
+-
+iostream
+-
+ctime
+-
+string
+-
+chrono
+-
+
