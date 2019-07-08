@@ -3,6 +3,8 @@
 #include <ctime>
 #include <string>
 #include <chrono>
+#include <thread>
+
 
 using namespace std;
 using namespace cppkafka;
@@ -19,7 +21,8 @@ int main() {
     // Create the config
     Configuration config = {
             { "metadata.broker.list", "127.0.0.1:9092" },
-            {"linger.ms",5},
+            {"queue.buffering.max.ms" , 2},
+            {"linger.ms",2},
     };
 
     // Create the producer
@@ -28,14 +31,17 @@ int main() {
     // Produce a message!
     string message = "STOP";
     string test = "test";
-    int msgAmount = 1000;
+    int msgAmount = 10000;
     long int now1 = getMs();
 
     for(int i=0; i<msgAmount; i++){
         long int now = getMs();
         string time = to_string(now);
         producer.produce(MessageBuilder("test").partition(0).payload(time));
-//        producer.poll();
+        if(i%20==0){
+            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        }
+        //        producer.poll();
 //        if(i%(msgAmount/300)==0){
 //            producer.flush();
 //        }

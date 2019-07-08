@@ -12,29 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc12fe5-5fa6-4e5e-b6c9-f2cf74b86370" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/KafkaConsumer" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/KafkaConsumer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/KafkaConsumer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/KafkaConsumer.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Producer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Producer.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Producer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Producer.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Producer.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Producer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Producer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -63,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="471">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -158,12 +142,12 @@
       <workItem from="1562235775532" duration="8566000" />
       <workItem from="1562308572285" duration="3702000" />
       <workItem from="1562314291669" duration="15133000" />
-      <workItem from="1562571380706" duration="9922000" />
+      <workItem from="1562571380706" duration="16339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37323000" />
+    <option name="totallyTimeSpent" value="43740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="961" y="0" width="959" height="1055" extended-state="4" />
@@ -225,8 +209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="471">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

@@ -5,6 +5,7 @@
 #include <chrono>
 #include <vector>
 
+
 using namespace std;
 using namespace cppkafka;
 using namespace std::chrono;
@@ -33,6 +34,9 @@ int main() {
             // Disable auto commit
             { "enable.auto.commit", false },
             //{"debug", "all"}
+            {"fetch.wait.max.ms", 2},
+            {"auto.offset.reset", "latest"}
+
     };
 
     // Construct from some config we've defined somewhere
@@ -64,7 +68,7 @@ int main() {
             else {
                 // Print the key (if any)
                 if (msg.get_key()) {
-                    cout << msg.get_key() << " -> ";
+                    //cout << msg.get_key() << " -> ";
                 }
                 // Print the payload
                 res.push_back(getMs()-msg.get_timestamp().get().get_timestamp().count());
