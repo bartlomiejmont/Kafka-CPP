@@ -21,8 +21,8 @@ int main() {
     // Create the config
     Configuration config = {
             { "metadata.broker.list", "127.0.0.1:9092" },
-            {"queue.buffering.max.ms" , 2},
-            {"linger.ms",2},
+            {"queue.buffering.max.ms" , 0},
+            {"acks",1},
     };
 
     // Create the producer
@@ -38,9 +38,9 @@ int main() {
         long int now = getMs();
         string time = to_string(now);
         producer.produce(MessageBuilder("test").partition(0).payload(time));
-        if(i%20==0){
-            std::this_thread::sleep_for(std::chrono::milliseconds(1));
-        }
+//        if(i%150==0){
+//            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+//        }
         //        producer.poll();
 //        if(i%(msgAmount/300)==0){
 //            producer.flush();

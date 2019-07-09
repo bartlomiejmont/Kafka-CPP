@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="KafkaConsumer" targetName="Producer" />
+      <config projectName="kf" targetName="kf" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -11,22 +11,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfc12fe5-5fa6-4e5e-b6c9-f2cf74b86370" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kf/.idea/kf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kf/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kf/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kf/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kf/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kf/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kf/main.cpp" afterDir="false" />
+    <list default="true" id="e9c4c970-e4fb-4011-8a67-11399a1e0b5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/CMakeFiles/KafkaConsumer.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/KafkaConsumer" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/cmake-build-debug/KafkaConsumer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KafkaConsumer1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaConsumer1/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Producer.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Producer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Producer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Producer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Producer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Producer/cmake-build-debug/CMakeFiles/Producer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Producer/cmake-build-debug/CMakeFiles/Producer.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Producer/cmake-build-debug/Producer" beforeDir="false" afterPath="$PROJECT_DIR$/../Producer/cmake-build-debug/Producer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Producer/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Producer/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,12 +40,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -53,20 +53,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/include/cppkafka/producer.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -85,8 +76,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="961" />
-    <option name="width" value="959" />
+    <option name="x" value="960" />
+    <option name="width" value="961" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,24 +86,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="KafkaConsumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
+              <item name="kf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KafkaConsumer1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -129,7 +120,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Producer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KafkaConsumer" TARGET_NAME="Producer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KafkaConsumer" RUN_TARGET_NAME="Producer">
+    <configuration name="kf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kf" TARGET_NAME="kf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kf" RUN_TARGET_NAME="kf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -140,87 +131,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bfc12fe5-5fa6-4e5e-b6c9-f2cf74b86370" name="Default Changelist" comment="" />
-      <created>1562235772858</created>
+      <changelist id="e9c4c970-e4fb-4011-8a67-11399a1e0b5f" name="Default Changelist" comment="" />
+      <created>1562663911183</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562235772858</updated>
-      <workItem from="1562235775532" duration="8566000" />
-      <workItem from="1562308572285" duration="3702000" />
-      <workItem from="1562314291669" duration="15133000" />
-      <workItem from="1562571380706" duration="16767000" />
-      <workItem from="1562652178218" duration="2795000" />
-      <workItem from="1562656788057" duration="181000" />
-      <workItem from="1562658714003" duration="5814000" />
+      <updated>1562663911183</updated>
+      <workItem from="1562663915502" duration="2838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52958000" />
+    <option name="totallyTimeSpent" value="2838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1055" extended-state="4" />
+    <frame x="960" y="0" width="961" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08122942" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" weight="0.32939914" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32832617" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32832617" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3290461" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" x="0" y="0" width="190" height="855" id="Documentation" order="4" side_tool="true" weight="0.32968238" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/4.8/bits/basic_string.tcc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="209" column="22" lean-forward="true" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/cppkafka/message_builder.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="458" column="6" selection-start-line="458" selection-start-column="6" selection-end-line="458" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/cppkafka/producer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
